@@ -1,0 +1,18 @@
+{
+  "name": "eduvirise",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix apps/web/web run dev",
+    "build": "npm --prefix apps/web/web run build",
+    "start": "npm --prefix apps/web/web run start",
+    "lint": "npm --prefix apps/web/web run lint"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.8.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.2",
+    "vite": "^8.0.16"
+  }
+}

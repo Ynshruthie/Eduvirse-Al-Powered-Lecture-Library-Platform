@@ -1,0 +1,23 @@
+# Environment files (commit only the .env.example templates)
+.env
+.env.*
+!.env.example
+
+# Local runtime data and user-uploaded content
+apps/api/src/storage/
+
+# Generated build output and local tooling caches
+apps/dist/
+apps/web/web/.vite/
+node_modules/
+coverage/
+
+# Scratch/test media
+*.mp4
+*.mp3
+*.aiff
+*.webm
+
+# OS/editor files
+.DS_Store
+*.log
